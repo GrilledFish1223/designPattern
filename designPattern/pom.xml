@@ -13,6 +13,7 @@
 
 	<modules>
 		<module>strategypattern</module>
+		<module>observerpattern</module>
 	</modules>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
