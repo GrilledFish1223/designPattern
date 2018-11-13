@@ -1,5 +1,7 @@
 package com.ping.strategy.duck2;
 
+import com.ping.strategy.duck2.flyImpl.FlyRocketPowered;
+
 /**
  * @Author:Zhangsp
  * @Description: test duck
@@ -11,5 +13,10 @@ public class MiniDuckSimulator {
         Duck mallard = new MallarDuck();
         mallard.performQuack();
         mallard.performFly();
+
+        Duck model = new ModelDuck();
+        model.performFly();
+        model.setFlyBehavior(new FlyRocketPowered());
+        model.performFly();
     }
 }
