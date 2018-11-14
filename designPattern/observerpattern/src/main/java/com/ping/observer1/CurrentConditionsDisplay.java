@@ -28,4 +28,9 @@ public class CurrentConditionsDisplay implements Observer, DisplayElement {
         this.humidity = humidity;
         display();
     }
+
+    @Override
+    public void updateWechat(String message) {
+
+    }
 }
