@@ -6,7 +6,7 @@
 	<groupId>com.ping</groupId>
 	<artifactId>designpattern</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<packaging>pom</packaging>
 
 	<name>designpattern</name>
 	<description>Design Pattern Learning</description>
@@ -14,6 +14,7 @@
 	<modules>
 		<module>strategypattern</module>
 		<module>observerpattern</module>
+		<module>decoratorpattern</module>
 	</modules>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
