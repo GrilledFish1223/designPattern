@@ -1,16 +1,14 @@
 package com.ping.observe;
 
-import com.ping.observer1.UserWhechat;
-
 public class TestMain {
     public static void main(String[] args) {
         WechatServer server = new WechatServer();
 
-        Observer u1 = new UserWhechat("zhang");
+        Observer u1 = new UserWeChat("zhang");
 
-        Observer u2 = new UserWhechat("li");
+        Observer u2 = new UserWeChat("li");
 
-        Observer u3 = new UserWhechat("wang");
+        Observer u3 = new UserWeChat("wang");
 
         server.registerObserver(u1);
         server.registerObserver(u2);
@@ -20,5 +18,6 @@ public class TestMain {
         System.out.println("----------------------------");
         server.registerObserver(u3);
         server.setInfomation("Pram is nice");
+
     }
 }

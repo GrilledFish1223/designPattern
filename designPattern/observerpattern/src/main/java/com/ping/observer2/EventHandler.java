@@ -2,7 +2,7 @@
  * unisinsight.com
  * Copyright (C) 2018-2019 All Rights Reserved.
  */
-package com.ping.observe;
+package com.ping.observer2;
 
 import java.util.ArrayList;
 import java.util.List;

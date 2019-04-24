@@ -1,14 +1,21 @@
-package com.ping.observer1;
+/**
+ * unisinsight.com
+ * Copyright (C) 2018-2019 All Rights Reserved.
+ */
+package com.ping.observe;
 
-import com.ping.observe.Observer;
+/**
+ * @version $Id UserWeChat.java, v 1.0 2019-04-24 11:54 zsp $$
+ * @author: zhangsp
+ */
 
-public class UserWhechat implements Observer {
+public class UserWeChat implements Observer {
 
     private String name;
 
     private  String messgge;
 
-    public UserWhechat(String name) {
+    public UserWeChat(String name) {
         this.name = name;
     }
 

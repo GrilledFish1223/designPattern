@@ -2,17 +2,17 @@
  * unisinsight.com
  * Copyright (C) 2018-2019 All Rights Reserved.
  */
-package com.ping.observe;
+package com.ping.observer2;
 
 
 
 /**
  * 通知者抽象
- * @version $Id Notifier.java, v 1.0 2019-04-24 10:56 zsp $$
+ * @version $Id BaseNotifier.java, v 1.0 2019-04-24 10:56 zsp $$
  * @author: zhangsp
  */
 
-public  abstract class Notifier {
+public  abstract class BaseNotifier {
 
     private EventHandler eventHandler = new EventHandler();
 

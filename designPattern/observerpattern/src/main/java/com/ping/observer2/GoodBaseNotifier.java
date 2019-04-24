@@ -2,19 +2,19 @@
  * unisinsight.com
  * Copyright (C) 2018-2019 All Rights Reserved.
  */
-package com.ping.observe;
+package com.ping.observer2;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- * @version $Id GoodNotifier.java, v 1.0 2019-04-24 11:19 zsp $$
+ * @version $Id GoodBaseNotifier.java, v 1.0 2019-04-24 11:19 zsp $$
  * @author: zhangsp
  */
 
-public class GoodNotifier extends Notifier {
+public class GoodBaseNotifier extends BaseNotifier {
 
-    private static final Logger LOGGER = LoggerFactory.getLogger(GoodNotifier.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(GoodBaseNotifier.class);
 
     @Override
     public EventHandler getEventHandler() {
