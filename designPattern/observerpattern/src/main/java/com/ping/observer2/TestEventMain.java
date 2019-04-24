@@ -19,7 +19,7 @@ public class TestEventMain {
 
         UserWeChat user1 =new UserWeChat("li");
 
-        goodBaseNotifier.addListener(user1, "update", String.class);
+        goodBaseNotifier.addListener(user1, "update", "opopo");
         try{
             Thread.sleep(1000);
         }catch(Exception e){
