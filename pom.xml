@@ -16,6 +16,8 @@
 		<module>observerpattern</module>
 		<module>decoratorpattern</module>
 		<module>factorypattern</module>
+		<module>commandpattern</module>
+		<module>templatemethoddesign</module>
 	</modules>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
