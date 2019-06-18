@@ -18,6 +18,7 @@
 		<module>factorypattern</module>
 		<module>commandpattern</module>
 		<module>templatemethoddesign</module>
+		<module>singledesignpattern</module>
 	</modules>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
